@@ -87,13 +87,6 @@ func (c *Cache) Expire() error {
 func (c *Cache) MonitorExpiry(d time.Duration) {
 
 	t := time.NewTicker(d)
-	/*	for _ = range t.C {
-		c.Expire()
-		if <-c.done {
-			log.Println("sensorCache: Cache monitoring stopped")
-			return
-		}
-	}*/
 
 	for {
 		select {
