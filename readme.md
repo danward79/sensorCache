@@ -8,4 +8,4 @@ sensorcache provides methods to allow updating, getting, deleting, checking expi
 
 ### An Example
 
-A working example of this code can be found [here](github.com/danward79/wuMQTTAgregate) in wuMQTTAgregate which is an example of how to publish dispersed sensor readings using the cache and MQTT
+A working example of this code can be found [here](https://github.com/danward79/wuMQTTAgregate) in wuMQTTAgregate which is an example of how to publish dispersed sensor readings using the cache and MQTT
